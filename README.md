@@ -13,11 +13,11 @@
 
 ## About the Library
 
-Pace 是一款可秀出頁面loading百分比的js，
+[Pace](https://github.hubspot.com/pace/docs/welcome/) 是一款可秀出頁面loading百分比的js，
 
 - 不需要使用jquery
 - 可根據page/ajax loading跑進度條、百分比數字
-- 可套用多個[theme](https://github.hubspot.com/pace/docs/welcome/)，都是純css
+- 可套用多個theme，都是純css
 - browser支援度(IE8+)
 
 
