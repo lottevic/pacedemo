@@ -8,7 +8,7 @@
 - [Installation](#installation)
 - [Basic Usage](#basic-usage)  
 - [線上資源](#%e7%b7%9a%e4%b8%8a%e8%b3%87%e6%ba%90)
-- [其他相關資源](##其他相關資源)
+- [其他相關資源](#其他相關資源)
 <!-- tocstop -->
 
 ## About the Library
