@@ -98,9 +98,9 @@ Pace.on('done', function () {
 
 - css preloader - 不用外掛的 css loading animation
 
-  1.[影片:How to create a CSS Preloader Animation With Javascript Tutorial](https://youtu.be/NZNhuzyeD-Y)
+  1.[影片:How to create a CSS Preloader Animation With Javascript Tutorial](https://youtu.be/NZNhuzyeD-Y)
 
-  2.[codepen](https://codepen.io/petervandenheuvel/pen/ywBxxY)
+  2.[codepen](https://codepen.io/petervandenheuvel/pen/ywBxxY)
 
 html:
 ```html
