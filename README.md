@@ -8,7 +8,7 @@
 - [Installation](#installation)
 - [Basic Usage](#basic-usage)  
 - [線上資源](#%e7%b7%9a%e4%b8%8a%e8%b3%87%e6%ba%90)
-
+- [其他相關資源](##其他相關資源)
 <!-- tocstop -->
 
 ## About the Library
@@ -18,7 +18,7 @@ Pace 是一款可秀出頁面loading百分比的js，
 - 不需要使用jquery
 - 可根據page/ajax loading跑進度條、百分比數字
 - 可套用多個[theme](https://github.hubspot.com/pace/docs/welcome/)，都是純css
-- browser支援度(?)
+- browser支援度(IE8+)
 
 
 ## 示意圖
@@ -98,9 +98,9 @@ Pace.on('done', function () {
 
 - css preloader - 不用外掛的 css loading animation
 
-  1. [影片:How to create a CSS Preloader Animation With Javascript Tutorial](https://youtu.be/NZNhuzyeD-Y)
+  1.[影片:How to create a CSS Preloader Animation With Javascript Tutorial](https://youtu.be/NZNhuzyeD-Y)
 
-  2. [codepen](https://codepen.io/petervandenheuvel/pen/ywBxxY)
+  2.[codepen](https://codepen.io/petervandenheuvel/pen/ywBxxY)
 
 html:
 ```html
