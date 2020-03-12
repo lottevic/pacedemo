@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-TW">
+<head>
+  <title>pace使用範例2:circle</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+  <link rel="stylesheet" href="css/pace-theme-circle.css" />
+
+  <style>
+    body, html { 
+      margin:0px; padding:0px; 
+      height: 100%; width: 100%;
+      }
+    .my-page{
+      opacity: 0;
+      transition: 0.5s;
+    }
+    .my-page.showmode{
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <iframe class="my-page" style="height:100vh; width:100vw; margin:0px;" src="https://boutique.imagedj.com/?r=tubar/imageDetail&image_id=20437641&oid=01"
+    frameborder="0"></iframe>
+</body>
+
+<script>
+  paceOptions = {
+    ajax: false, // disabled
+    document: false, // disabled
+    eventLag: false, // disabled
+    elements: {
+      selectors: ['.my-page']
+    }
+  };
+  Pace.on('done', function () {
+    document.querySelectorAll('.my-page')
+      .forEach(e => {
+        e.classList.add('showmode');
+      });
+  }); 
+</script>
+
+
+</html>
